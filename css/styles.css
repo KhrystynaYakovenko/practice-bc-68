@@ -1,0 +1,139 @@
+/* #region Base */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* endregion Base */
+
+/* #region Header */
+.logo {
+    color: #111;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+.logo-span {
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;        
+    letter-spacing: -0.03em;
+}
+.nav {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+.nav-link {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #fd9222;
+}
+/* endregion Header */
+
+/* region Hero */
+.hero {}
+
+.hero-cont {
+    border-radius: 30px;
+    background: rgba(17, 17, 17, 0.70);
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 28px;        
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+}
+
+.hero-btn-buy {
+    background: #FD9222;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.hero-btn-how {
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-btn-scr{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+}
+.hero-btn-buy:hover,
+.hero-btn-buy:focus{
+background: #FCF1E0;
+color: #FD9222;
+}
+.hero-btn-how:hover,
+.hero-btn-how:focus{
+    border: 1px solid #FD9222;
+    color: #FD9222;
+}
+.hero-btn-scr:hover,
+.hero-btn-scr:focus{
+    color: #FD9222;
+}
+/* endregion Hero */
+
+/* region benefits */
+.benefits {
+    background: #1E1823;
+}
+
+.benefits-title {
+    background: #1E1823;
+}
+
+.benefits-list {
+    list-style-type: none;
+}
+
+.benefits-list-item {}
+
+.benefits-list-item-title {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+.benefits-list-item-text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+/* endregion benefits */
